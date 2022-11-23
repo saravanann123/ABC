@@ -16,7 +16,6 @@
 Thread.sleep(1000);
 			getdriver();
 			enterApplnurl("http://adactinhotelapp.com/");
-			maximizewindow();
 			WebElement byid = findElementByid("username");
 			String name = getDataFromCell("Sheet1", 1, 0);
 			elementsendKeys(byid, name);
