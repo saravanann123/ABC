@@ -13,7 +13,7 @@
 		}
 
 		public void booking() throws IOException, InterruptedException {
-
+Thread.sleep(1000);
 			getdriver();
 			enterApplnurl("http://adactinhotelapp.com/");
 			maximizewindow();
